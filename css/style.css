@@ -1,0 +1,268 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+div.head img {
+    max-width: 100%;
+    height: auto;
+}
+
+.name {
+    width: 100%;
+    height: auto;
+}
+.name p {
+    font-size: 28px;
+    color: #193768;
+    padding: 30px 0 50px 50px;
+}
+
+section.content-area {
+    width: 100%;
+    height: auto;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-image: linear-gradient(#f1f8fc, #cce8f6, #90d5ee);
+}
+
+.main #image {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.content {
+    padding-top: 200px;
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    grid-template-rows: 520px;
+    text-align: center;
+    justify-content: center;
+}
+
+div.water img {
+    position: relative;
+}
+
+h1.hmb {
+    position: absolute;
+    font-size: 76px;
+    left: 6%;
+    top: 55%;
+    color: #193768;
+}
+
+.contents-main h1 {
+    padding-top: 60px;
+    font-size: 36px;
+    color: #193768;
+}
+hr.start {
+    display: inline-block;
+    margin-top: 27px;
+    width: 500px;
+    border: 1px solid #fff;
+}
+p.link {
+    padding-top: 23px;
+    font-size: 28px;
+    color: #193768;
+}
+.link a {
+    text-decoration: none;
+}
+p.feedback {
+    padding-top: 15px;
+    padding-bottom: 23px;
+    font-size: 28px;
+    color: #193768;
+}
+hr.end {
+    display: inline-block;
+    width: 500px;
+    border: 1px solid #fff;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+}
+.Abbott {
+    padding-top: 35px;
+    padding-left: 65px;
+}
+.Abbott p {
+    font-size: 20px;
+}
+.Abbott h3 {
+    font-size: 24px;
+}
+.contact {
+    text-align: center;
+}
+.contact h1 {
+    padding-top: 60px;
+}
+.contact p {
+    padding-top: 10px;
+    font-size: 20px;
+}
+.contact span {
+    display: inline-block;
+    padding-top: 50px;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .content {
+        grid-template-columns: 210px 1fr;
+    }
+
+    h1.hmb {
+        left: 5%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .content {
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 450px;
+    }
+
+    div.water img {
+        margin-top: 40px;
+        width: 200px;
+    }
+
+    h1.hmb {
+        font-size: 58px;
+        top: 42%;
+        left: 42%;
+    }
+
+    .contents-main h1 {
+        padding-top: 50px;
+        font-size: 30px;
+    }
+
+    hr.start, hr.end {
+        width: 370px;
+    }
+    p.link, p.feedback {
+        font-size: 24px;
+    }
+
+    .Abbott {
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+    .Abbott p {
+        font-size: 14px;
+    }
+    .Abbott h3 {
+        font-size: 16px;
+    }
+    .contact h1 {
+        padding-top: 40px;
+        font-size: 20px;
+    }
+    .contact p {
+        padding-top: 10px;
+        font-size: 16px;
+    }
+    .contact span {
+        padding-top: 30px;
+        font-size: 10px;
+        padding-bottom: 15px;
+    }
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    
+    .name p {
+        font-size: 18px;
+        color: #193768;
+        padding: 20px 0 30px 30px;
+    }
+
+    #image {
+        width: 300px;
+    }
+
+    div.content {
+        padding-top: 175px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 380px;
+    }
+
+    div.water img {
+        width: 150px;
+    }
+
+    h1.hmb {
+        font-size: 50px;
+        left: 39%;
+        top: 40%;
+    }
+
+    .contents-main h1 {
+        font-size: 28px;
+        padding-top: 30px;
+    }
+    hr.start, hr.end {
+        width: 350px;
+    }
+    p.link, p.feedback {
+        font-size: 20px;
+    }
+
+    div.Abbott {
+        padding-top: 20px;
+        padding-left: 40px;
+    }
+    .Abbott p {
+        font-size: 12px;
+    }
+    .Abbott h3 {
+        font-size: 16px;
+    }
+    .contact h1 {
+        padding-top: 25px;
+        font-size: 24px;
+    }
+    .contact p {
+        font-size: 12px;
+    }
+    .contact span {
+        font-size: 8px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+}
