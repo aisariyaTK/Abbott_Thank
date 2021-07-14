@@ -60,15 +60,12 @@ section.content-area {
     justify-content: center;
 }
 
-div.water img {
-    position: relative;
-}
-
 h1.hmb {
-    position: absolute;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    top: -30%;
     font-size: 76px;
-    left: 6%;
-    top: 55%;
     color: #193768;
 }
 
@@ -142,7 +139,7 @@ footer {
     }
 
     h1.hmb {
-        left: 5%;
+        left: 60%;
     }
 
 }
@@ -161,8 +158,8 @@ footer {
 
     h1.hmb {
         font-size: 58px;
-        top: 42%;
-        left: 42%;
+        top: -42%;
+        left: 50%;
     }
 
     .contents-main h1 {
@@ -227,9 +224,9 @@ footer {
     }
 
     h1.hmb {
-        font-size: 50px;
-        left: 39%;
-        top: 40%;
+        font-size: 48px;
+        left: 50%;
+        top: -32%;
     }
 
     .contents-main h1 {
